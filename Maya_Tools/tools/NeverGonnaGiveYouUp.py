@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 try:
-    from PySide2 import QtWidgets, QtCore
+    from PySide2 import QtWidgets, QtCore, QtWebEngineWidgets
 except Exception:
-    from PySide6 import QtWidgets, QtCore
+    from PySide6 import QtWidgets, QtCore, QtWebEngineWidgets
 
 import maya.OpenMayaUI as omui
 from shiboken2 import wrapInstance
