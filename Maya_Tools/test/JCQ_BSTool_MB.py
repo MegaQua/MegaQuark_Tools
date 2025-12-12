@@ -58,7 +58,7 @@ class MyWindow(QtWidgets.QDialog):
 
     def update_sheet_list(self):
         selected_project = self.project_option_menu.currentText()
-        # TODO: 实现获取项目列表的功能，并更新下拉列表2的内容
+        # 实现获取项目列表的功能，并更新下拉列表2的内容
         pass
 
     def create_labels(self):
